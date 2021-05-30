@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+.nav-link{
+  font-Size:5vh;
+  text-Decoration:none;
+  margin-right: 5vh;
+  color: aliceblue;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav{
+  width:100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.todolist{
+  height: 50vh;
+  width:30%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: aqua;
+  border-radius: 2em;
+}
+.list{
+  height: 25vh;
+  overflow: hidden scroll;
+  width: 45vh;
+  background-color: darkgray;
+  border: 0.2rem solid;
 }
 
-.App-link {
-  color: #61dafb;
+.home-listitem{
+  background-color: grey;
+  color: azure;
+  text-decoration: solid;
+  font-size: 1.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mylist-listitem{
+  background-color: cyan;
+  margin-left: 5%;
+  width: 80%;
+  color: rebeccapurple;
+  text-decoration: solid;
+  font-size: 3rem;
 }
